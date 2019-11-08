@@ -8,3 +8,4 @@ export const POST_REQUEST = 'POST_REQUEST';
 export const ADD_PRODUCTS = 'ADD_PRODUCTS';
 export const DEFAULT = 'DEFAULT';
 export const SORT_BY_AMOUNT = 'SORT_BY_AMOUNT';
+export const SET_EMPLOYEE = 'SET_EMPLOYEE';

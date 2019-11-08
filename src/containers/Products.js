@@ -3,11 +3,8 @@ import React  from 'react'
 import { connect } from 'react-redux'
 
 let ProductsList = (props) => {
-    
-    // let data = "";
     if (props.loading) {
         return <div><h3>Loading ...</h3></div>
-        // data = <h3>Loading ...</h3>
     } else if(props.products) {
         console.log(props.products);
         return props.products.map((item, index) => {
@@ -24,7 +21,6 @@ let ProductsList = (props) => {
         // data = <span>{JSON.stringify(props.products)}</span>
     }
     return <div></div>
-    // return <div>{data}</div>;
 }
 
 const mapStateToProps = (state) => ({
